@@ -1,0 +1,66 @@
+.title {
+    text-align: center;
+    font-size: 55px;
+
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 100px;
+    padding-bottom: 20px;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.column img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .title {
+
+        font-size: 45px;
+
+    }
+
+    .column {
+        width: 46%;
+
+
+
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+
+
+    .title {
+
+        font-size: 35px;
+
+    }
+    .column {
+        width: 92%;
+    }
+
+
+}
